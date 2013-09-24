@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version       = MicroMigrations::VERSION
   s.authors       = ["Sven Fuchs"]
   s.email         = ["me@svenfuchs.com"]
-  s.homepage      = "https://github.com//micro_migrations"
+  s.homepage      = "https://github.com/svenfuchs/micro_migrations"
   s.summary       = "Minimal ActiveRecord standalone migrations"
   s.description   = "Minimal ActiveRecord standalone migrations."
 
@@ -16,4 +16,6 @@ Gem::Specification.new do |s|
   s.platform      = Gem::Platform::RUBY
   s.require_paths = ['lib']
   s.rubyforge_project = '[none]'
+
+  s.add_runtime_dependency 'railties'
 end
