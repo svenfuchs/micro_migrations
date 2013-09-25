@@ -17,5 +17,6 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.rubyforge_project = '[none]'
 
+  s.add_runtime_dependency 'activerecord'
   s.add_runtime_dependency 'railties'
 end
